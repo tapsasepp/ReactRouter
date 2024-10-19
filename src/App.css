@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.banner {
+  position: fixed;        
+  top: 0;                 
+  left: 0;                
+  width: 100vw;
+  background-color: #333; 
+  color: white; 
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
